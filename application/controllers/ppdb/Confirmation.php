@@ -1,0 +1,39 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+/**
+ * CMS Sekolahku | CMS (Content Management System) dan PPDB Online GRATIS untuk sekolah SD, SMP/Sederajat, SMA/Sederajat
+ * @version    1.4.7
+ * @author     Anton Sofyan | https://facebook.com/antonsofyan
+ * @copyright  (c) 2014-2016
+ * @link       http://sekolahku.web.id
+ * @since      Version 1.4.7
+ *
+ * PERINGATAN :
+ * 1. TIDAK DIPERKENANKAN MEMPERJUALBELIKAN APLIKASI INI TANPA SEIZIN DARI PIHAK PENGEMBANG APLIKASI.
+ * 2. TIDAK DIPERKENANKAN MENGHAPUS KODE SUMBER APLIKASI.
+ * 3. TIDAK MENYERTAKAN LINK KOMERSIL (JASA LAYANAN HOSTING DAN DOMAIN) YANG MENGUNTUNGKAN SEPIHAK.
+ */
+
+class Confirmation extends MY_Controller {
+
+   public function __construct() {
+      parent::__construct();
+   }
+
+   public function index() {
+      $id = decode_url($this->uri->segment(4));
+      if ($id && $id != 0 && ctype_digit((string) $id)) {
+         $this->data['ppdb'] = true;
+         $this->data['alert'] = $this->session->flashdata('alert');
+         $this->data['title'] = 'Penerimaan Peserta Didik Baru ' . $this->setting['ppdb_tahun'];
+         $this->data['query'] = $this->m_global->find('view_siswa', 'id', $id)->row_array();
+         $this->data['content'] = 'themes/' . $this->setting['themes'] . '/ppdb/ppdb-confirmation';
+         $this->load->view('themes/' . $this->setting['themes'] . '/index', $this->data);
+      } else {
+         $alert = '<div class="alert alert-danger">Anda tidak diperkenankan memanipulasi URL</div>';
+         $this->session->set_flashdata('alert', $alert);
+         redirect('ppdb/registration');
+      }
+   }
+}

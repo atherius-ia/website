@@ -1,0 +1,286 @@
+a:2:{s:6:"expire";i:1501463544;s:7:"headers";a:0:{}}ENDCI---><!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>SMP Muhammadiyah 30</title>
+	<meta name="description" content="CMS Sekolahku | CMS (Content Management System) dan PPDB Online GRATIS untuk sekolah SD, SMP/Sederajat, SMA/Sederajat">
+	<meta name="keywords" content="CMS Sekolah, Website Sekolah, website Sekolah Gratis, CMS sekolahku">
+	<meta name="author" content="sekolahku.web.id">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+	<link rel="shortcut icon" href="http://localhost/cmssekolahku/assets/images/8671bd96c5acbda57f08b010a0fa3656.png">	<link href="http://localhost/cmssekolahku/views/themes/default/assets/plugin/slider/flexslider.css" rel="stylesheet" type="text/css" />
+	<link href="http://localhost/cmssekolahku/views/themes/default/assets/plugin/prettyphoto/css/prettyphoto.css" rel="stylesheet" type="text/css" />
+	<link href="http://localhost/cmssekolahku/views/themes/default/assets/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="http://localhost/cmssekolahku/views/themes/default/assets/css/custom.css" rel="stylesheet" type="text/css" />
+	<link href="http://localhost/cmssekolahku/views/themes/default/assets/css/form.css" rel="stylesheet" type="text/css" />
+	<link href="http://localhost/cmssekolahku/views/themes/default/assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+	<script src="http://localhost/cmssekolahku/assets/backend/js/jquery.min.js" type="text/javascript"></script>
+	<script src="http://localhost/cmssekolahku/views/themes/default/assets/js/jquery.accordion.source.js" type="text/javascript"></script>
+	<script src="http://localhost/cmssekolahku/views/themes/default/assets/plugin/slider/jquery.flexslider-min.js" type="text/javascript"></script>
+	<script src="http://localhost/cmssekolahku/views/themes/default/assets/plugin/prettyphoto/js/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="http://localhost/cmssekolahku/views/themes/default/assets/js/plugins.library.js" type="text/javascript"></script>
+	<script src="http://localhost/cmssekolahku/views/themes/default/assets/js/init.js" type="text/javascript"></script>
+	<script src="http://localhost/cmssekolahku/assets/js/action.js" type="text/javascript"></script>
+</head>
+<body>
+<style type="text/css">
+.f-nav{  /* To fix main menu container */
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+</style>
+<script type="text/javascript">
+$("document").ready(function($){
+	$(".accordion").slideUp();
+	$('ul').accordion();
+	$("#openmobi").click(function(){
+		$(".accordion").slideToggle();
+  	});
+
+	var nav = $('#primary-navigator');
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 125) {
+			nav.addClass("f-nav");
+		} else {
+			nav.removeClass("f-nav");
+		}
+	});
+});
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="wrapper">
+	<section id="top-bar" class="clearfix">
+		<div class="container">
+			<ul id="top-nav" class="clearfix">
+				<li id="clock"></li>
+				<li id="rss-feed"><a href="http://localhost/cmssekolahku/home/rss" target="_blank">RSS</a></li>
+				<li id="subscribe"><a href="http://localhost/cmssekolahku/home/peta_situs">Peta Situs</a></li>
+			</ul>
+		</div>
+	</section>
+	<header id="primary-header">
+		<div class="header">
+		    <div class="logo"> 
+			    <a href="http://localhost/cmssekolahku/"><img src="http://localhost/cmssekolahku/assets/images/67ca38f01181f4dd32499c6315bc0746.png" alt="LOGO"/></a>
+			</div>
+			<div class="social">
+			    
+				<div class="schinfo">
+			        <div class="sch inleft">
+				    Alamat : Jl. Raya Penggilingan RT 05 RW 06				    </div>
+				    <div class="sch inleft">
+				    Cakung				    </div>
+				    <div class="sch inleft">
+				    Jakarta Timur				    </div>
+				    <div class="sch incenter">
+				    021 4608423				    </div>
+			    </div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</header>
+    <div id="fixed-wrapper">
+	
+	<div class="mobimenu">
+	        <div id="openmobi"><span>MENU</span></div>
+            <ul class="accordion">
+			    <li >
+				    <a href="http://localhost/cmssekolahku/">HOME</a>
+				</li>
+				<li class="level1"><a href="http://localhost/cmssekolahku/#">PROFIL</a><ul><li '><a href='http://localhost/cmssekolahku/home/readmore/3/profil-sekolah'>PROFIL SEKOLAH</a></li><li '><a href='http://localhost/cmssekolahku/home/readmore/2/visi-misi'>VISI & MISI</a></li></ul></li>				<li class="level1"><a href="#">DIREKTORI</a>
+					<ul>
+						<li><a href="http://localhost/cmssekolahku/home/ptk">DIREKTORI PTK</a></li>
+						<li><a href="http://localhost/cmssekolahku/home/siswa">DIREKTORI SISWA</a></li>
+					</ul>
+				</li>
+
+				<li ><a href="http://localhost/cmssekolahku/home/agenda_sekolah">AGENDA</a></li>
+				<li ><a href="http://localhost/cmssekolahku/home/album">GALLERY</a>
+				</li>
+				<li ><a href="http://localhost/cmssekolahku/home/hubungi_kami">HUBUNGI KAMI</a></li>
+			
+			</ul>
+	</div>
+	
+	<nav id="primary-navigator">
+		<div class="container">
+			<ul id="primary-navigator-list" class="tree-menu">
+				<li ><a href="http://localhost/cmssekolahku/">HOME</a></li>
+				<li ><a href="http://localhost/cmssekolahku/#">PROFIL</a><ul><li '><a href='http://localhost/cmssekolahku/home/readmore/3/profil-sekolah'>PROFIL SEKOLAH</a></li><li '><a href='http://localhost/cmssekolahku/home/readmore/2/visi-misi'>VISI & MISI</a></li></ul></li>				<li ><a href="#">DIREKTORI</a>
+					<ul>
+						<li><a href="http://localhost/cmssekolahku/home/ptk">DIREKTORI PTK</a></li>
+						<li><a href="http://localhost/cmssekolahku/home/siswa">DIREKTORI SISWA</a></li>
+					</ul>
+				</li>
+				
+								<li class="current"><a href="#">PPDB 2016</a>
+					<ul>
+						<li><a href="http://localhost/cmssekolahku/ppdb/registration">DAFTAR SEKARANG</a></li>
+						<li><a href="http://localhost/cmssekolahku/ppdb/check">HASIL SELEKSI</a></li>
+						<li><a href="http://localhost/cmssekolahku/ppdb/cetak_formulir">CETAK FORMULIR</a></li>
+						<li><a href="http://localhost/cmssekolahku/ppdb/statistik">GRAFIK PPDB</a></li>
+						<li><a href="http://localhost/cmssekolahku/formulir_ppdb/index">DOWNLOAD FORMULIR</a></li>
+					</ul>
+				</li>
+				
+				
+				
+				
+				<li ><a href="http://localhost/cmssekolahku/home/agenda_sekolah">AGENDA</a></li>
+				<li ><a href="http://localhost/cmssekolahku/home/album">GALLERY</a>
+				</li>
+				<li ><a href="http://localhost/cmssekolahku/home/hubungi_kami">HUBUNGI KAMI</a></li>
+			</ul>
+		</div>
+	</nav>
+
+    </div>
+
+    <section id="content-wrapper" class="container">
+    <script src="http://localhost/cmssekolahku/assets/chart/RGraph.common.core.js" ></script>
+<script src="http://localhost/cmssekolahku/assets/chart/RGraph.bar.js" ></script>
+<script src="http://localhost/cmssekolahku/assets/chart/RGraph.common.tooltips.js" ></script>
+<script src="http://localhost/cmssekolahku/assets/chart/RGraph.common.dynamic.js" ></script>
+<section id="main-content">
+	<div class="widget-title">
+		<h4>GRAFIK PPDB TAHUN 2017 <i class="fa fa-bar-chart"></i></h4>
+	</div>
+	<div class="widget">
+        <div class="form-wrapper">
+                    </div>
+
+        
+        
+        
+        	</div>
+</section>
+<script src="http://localhost/cmssekolahku/views/themes/default/assets/moodal/js/bootstrap.js"></script>
+<link href="http://localhost/cmssekolahku/views/themes/default/assets/moodal/css/bootstrap.css" rel="stylesheet">
+<aside id="aside-secondary">
+	 	 <div class="widget-title">
+		  <h4><span class="ja ji">SAMBUTAN KEPSEK</span> <i class="fa fa-microphone"></i></h4>
+	 </div>
+	 <div class="widget">
+		  <ul class="post-list">
+				<li class="clearfix" style="padding:0;">
+				    <div class="sambut">
+					    					    <img width="100%" title="Zulheldi, S.Si." src="http://localhost/cmssekolahku/assets/ptk/0014a88d046a0f7c4f848f21fdac5776.JPG" alt="image" style="margin-top:0;"/>
+					    					</div>
+					 <p>Assalamu&rsquo;alaikum Wr.Wb.
+
+Alhamdulillah, Puji Syukur kita panjatkan ke hadirat Allah SWT yang telah memberikan berbagai macam nikmat kepada kita, sehingga sampai s...</p>
+					 <p><a class="samkep" href="http://localhost/cmssekolahku/home/sambutan_kepala_sekolah">Selengkapnya..<i class="fa fa-angle-right"></i></a></p>
+				</li>
+		  </ul>
+	 </div>
+	 
+	 <div class="widget-title">
+		  <h4><span>JAJAK PENDAPAT</span> <i class="fa fa-star"></i></h4>
+	 </div>
+	 <div class="widget">
+		  <div id="message-polling" style="display:none;"></div>
+		  <img id="loading-polling" style="display:none;" src="http://localhost/cmssekolahku/assets/loading.gif">
+		  <form action="http://localhost/cmssekolahku/home/polling" class="form-inline" role="form" id="form-polling" method="post" accept-charset="utf-8">
+				<p>Apakah website ini bagus ?</p>
+								<label for="1">
+					 <input type="radio" id="jawaban_id" name="jawaban_id" value="1"/> Sangat Bagus				</label>
+								<label for="2">
+					 <input type="radio" id="jawaban_id" name="jawaban_id" value="2"/> Bagus				</label>
+								<label for="3">
+					 <input type="radio" id="jawaban_id" name="jawaban_id" value="3"/> Cukup Bagus				</label>
+								<label for="4">
+					 <input type="radio" id="jawaban_id" name="jawaban_id" value="4"/> Kurang menarik				</label>
+								<div class="botpoll">
+				    <button id="submit-polling" type="submit" value="submit" name="submit">SUBMIT</button><a class="jawaban" href="http://localhost/cmssekolahku/home/result_polling">Lihat Jawaban</a>
+				</div>
+		  </form>	 </div>
+	 	 
+	 		<div class="widget-title">
+		<h4><span>KATEGORI</span> <i class="fa fa-folder-open"></i></h4>
+	</div>
+	<div class="widget">
+		<ul class="ul-list clearfix">
+			<li><a href="http://localhost/cmssekolahku/home/category/1">Sekolah <span>2</span></a></li>		</ul>
+	</div>
+	
+		<div class="widget-title">
+		<h4><span>ARSIP 2017</span> <i class="fa fa-calendar-check-o"></i></h4>
+	</div>
+	<div class="widget">
+		<ul class="ul-list clearfix">
+			<li><a href="http://localhost/cmssekolahku/home/archive/02/2017" title="Arsip berita bulan Februari">Februari <span>2</span></a></li>		</ul>
+	</div>
+	
+		<div class="widget-title">
+		<h4><span>TAUTAN</span> <i class="fa fa-list"></i></h4>
+	</div>
+	<div class="widget">
+		<ul class="ul-list clearfix">
+			<li><a href="http://datadikdki.net/?mn=sekolah&jjg=smp" target="_blank" title="http://datadikdki.net/?mn=sekolah&jjg=smp">Data Pendidikan</a></li>		</ul>
+	</div>
+	
+		
+</aside>    </section>
+
+<footer id="sub-footer">
+    <div id="footcont" class="clearfix">
+		<div class="infooter">
+		    <div class="footer-title">
+	            	<h4>DATA SEKOLAH</h4>
+	        </div>
+			<div class="list">
+			    <h4>SMP MUHAMMADIYAH 30</h4>
+			    <p>Jl. Raya Penggilingan RT 05 RW 06 <br/>
+			    <p>Cakung, Jakarta Timur <br/><br/>
+				<i class="fa fa-phone"></i>  021 4608423<br/>
+				<i class="fa fa-envelope"></i>  smpmuh30@yahoo.co.id			    </p>
+			</div>
+		</div>
+		<div class="infooter">
+		    <div class="footer-title">
+	            	<h4>KATEGORI</h4>
+	        </div>
+		            	<div class="list">
+	        	<ul class="ul-list clearfix">
+	        		<li><a href="http://localhost/cmssekolahku/home/category/1">Sekolah <span>2</span></a></li>		        </ul>
+	        </div>
+	        	    
+		</div>
+		<div class="infooter">
+		    <div class="footer-title">
+	            <h4>ARSIP 2017</h4>
+	        </div>
+				        <div class="list">
+		        <ul class="ul-list clearfix">
+		        	<li><a href="http://localhost/cmssekolahku/home/archive/02/2017" title="Arsip berita bulan Februari">Februari <span>2</span></a></li>		        </ul>
+	        </div>
+	        		</div>
+		<div class="infooter">
+		    <div class="footer-title">
+	            <h4>TAUTAN</h4>
+	        </div>
+		    	        <div class="list">
+		        <ul class="ul-list clearfix">
+		     	<li><a href="http://datadikdki.net/?mn=sekolah&jjg=smp" target="_blank" title="http://datadikdki.net/?mn=sekolah&jjg=smp">Data Pendidikan</a></li>		        </ul>
+	        </div>
+	        		</div>
+	</div>
+		<div id="copyright-wrapper" class="clearfix">
+		    <div class="footcopy">
+			    <div class="copyright">Copyright © 2017 SMP Muhammadiyah 30. All Rights Reserved.</div>
+			    <div class="dev"><span class="eloper">Edited by <a href="" target="">Setyawan Antaris</a></span><span class="eloper">| Developed by <a href="http://sekolahku.web.id" target="_blank">sekolahku.web.id</a></span></div>
+			</div>
+		</div>
+</footer>
+</div>
+</body>
+</html>

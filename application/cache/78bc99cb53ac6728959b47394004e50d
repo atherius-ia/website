@@ -1,0 +1,336 @@
+a:2:{s:6:"expire";i:1512304204;s:7:"headers";a:0:{}}ENDCI---><!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>SMP Muhammadiyah 30</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="sekolahku.web.id">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+	<link rel="shortcut icon" href="http://localhost/cmssekolahku2/assets/images/69cef3f35cd770cb9be0843cf6ae9b9a.png">	<link href="http://localhost/cmssekolahku2/views/themes/default/assets/plugin/slider/flexslider.css" rel="stylesheet" type="text/css" />
+	<link href="http://localhost/cmssekolahku2/views/themes/default/assets/plugin/prettyphoto/css/prettyphoto.css" rel="stylesheet" type="text/css" />
+	<link href="http://localhost/cmssekolahku2/views/themes/default/assets/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="http://localhost/cmssekolahku2/views/themes/default/assets/css/custom.css" rel="stylesheet" type="text/css" />
+	<link href="http://localhost/cmssekolahku2/views/themes/default/assets/css/form.css" rel="stylesheet" type="text/css" />
+	<link href="http://localhost/cmssekolahku2/views/themes/default/assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+	<script src="http://localhost/cmssekolahku2/assets/backend/js/jquery.min.js" type="text/javascript"></script>
+	<script src="http://localhost/cmssekolahku2/views/themes/default/assets/js/jquery.accordion.source.js" type="text/javascript"></script>
+	<script src="http://localhost/cmssekolahku2/views/themes/default/assets/plugin/slider/jquery.flexslider-min.js" type="text/javascript"></script>
+	<script src="http://localhost/cmssekolahku2/views/themes/default/assets/plugin/prettyphoto/js/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="http://localhost/cmssekolahku2/views/themes/default/assets/js/plugins.library.js" type="text/javascript"></script>
+	<script src="http://localhost/cmssekolahku2/views/themes/default/assets/js/init.js" type="text/javascript"></script>
+	<script src="http://localhost/cmssekolahku2/assets/js/action.js" type="text/javascript"></script>
+</head>
+<body>
+<style type="text/css">
+.f-nav{  /* To fix main menu container */
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+</style>
+<script type="text/javascript">
+$("document").ready(function($){
+	$(".accordion").slideUp();
+	$('ul').accordion();
+	$("#openmobi").click(function(){
+		$(".accordion").slideToggle();
+  	});
+
+	var nav = $('#primary-navigator');
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 125) {
+			nav.addClass("f-nav");
+		} else {
+			nav.removeClass("f-nav");
+		}
+	});
+});
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="wrapper">
+	<section id="top-bar" class="clearfix">
+		<div class="container">
+			<ul id="top-nav" class="clearfix">
+				<li id="clock"></li>
+				<li id="rss-feed"><a href="http://localhost/cmssekolahku2/home/rss" target="_blank">RSS</a></li>
+				<li id="subscribe"><a href="http://localhost/cmssekolahku2/home/peta_situs">Peta Situs</a></li>
+			</ul>
+		</div>
+	</section>
+	<header id="primary-header">
+		<div class="header">
+		    <div class="logo"> 
+			    <a href="http://localhost/cmssekolahku2/"><img src="http://localhost/cmssekolahku2/assets/images/8b3aeee46fffbc1464c5d8b58f006962.png" alt="LOGO"/></a>
+			</div>
+			<div class="social">
+			    
+				<div class="schinfo">
+			        <div class="sch inleft">
+				    Alamat : Jl. Raya Penggilingan, RT 5 RW 6 No.36				    </div>
+				    <div class="sch inleft">
+				    Cakung				    </div>
+				    <div class="sch inleft">
+				    Jakarta Timur				    </div>
+				    <div class="sch incenter">
+				    (021) 4608423				    </div>
+			    </div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</header>
+    <div id="fixed-wrapper">
+	
+	<div class="mobimenu">
+	        <div id="openmobi"><span>MENU</span></div>
+            <ul class="accordion">
+			    <li >
+				    <a href="http://localhost/cmssekolahku2/">HOME</a>
+				</li>
+								<li class="level1"><a href="#">DIREKTORI</a>
+					<ul>
+						<li><a href="http://localhost/cmssekolahku2/home/ptk">DIREKTORI PTK</a></li>
+						<li><a href="http://localhost/cmssekolahku2/home/siswa">DIREKTORI SISWA</a></li>
+					</ul>
+				</li>
+
+				<li ><a href="http://localhost/cmssekolahku2/home/agenda_sekolah">AGENDA</a></li>
+				<li ><a href="http://localhost/cmssekolahku2/home/album">GALLERY</a>
+				</li>
+				<li ><a href="http://localhost/cmssekolahku2/home/hubungi_kami">HUBUNGI KAMI</a></li>
+			
+			</ul>
+	</div>
+	
+	<nav id="primary-navigator">
+		<div class="container">
+			<ul id="primary-navigator-list" class="tree-menu">
+				<li ><a href="http://localhost/cmssekolahku2/">HOME</a></li>
+								<li ><a href="#">DIREKTORI</a>
+					<ul>
+						<li><a href="http://localhost/cmssekolahku2/home/ptk">DIREKTORI PTK</a></li>
+						<li><a href="http://localhost/cmssekolahku2/home/siswa">DIREKTORI SISWA</a></li>
+					</ul>
+				</li>
+				
+								<li class="current"><a href="#">PPDB 2017</a>
+					<ul>
+						<li><a href="http://localhost/cmssekolahku2/ppdb/registration">DAFTAR SEKARANG</a></li>
+						<li><a href="http://localhost/cmssekolahku2/ppdb/check">HASIL SELEKSI</a></li>
+						<li><a href="http://localhost/cmssekolahku2/ppdb/cetak_formulir">CETAK FORMULIR</a></li>
+						<li><a href="http://localhost/cmssekolahku2/ppdb/statistik">GRAFIK PPDB</a></li>
+						<li><a href="http://localhost/cmssekolahku2/formulir_ppdb/index">DOWNLOAD FORMULIR</a></li>
+					</ul>
+				</li>
+				
+				
+				
+				
+				<li ><a href="http://localhost/cmssekolahku2/home/agenda_sekolah">AGENDA</a></li>
+				<li ><a href="http://localhost/cmssekolahku2/home/album">GALLERY</a>
+				</li>
+				<li ><a href="http://localhost/cmssekolahku2/home/hubungi_kami">HUBUNGI KAMI</a></li>
+			</ul>
+		</div>
+	</nav>
+
+    </div>
+
+    <section id="content-wrapper" class="container">
+    <script src="http://localhost/cmssekolahku2/assets/chart/RGraph.common.core.js" ></script>
+<script src="http://localhost/cmssekolahku2/assets/chart/RGraph.bar.js" ></script>
+<script src="http://localhost/cmssekolahku2/assets/chart/RGraph.common.tooltips.js" ></script>
+<script src="http://localhost/cmssekolahku2/assets/chart/RGraph.common.dynamic.js" ></script>
+<section id="main-content">
+	<div class="widget-title">
+		<h4>GRAFIK PPDB TAHUN 2017 <i class="fa fa-bar-chart"></i></h4>
+	</div>
+	<div class="widget">
+        <div class="form-wrapper">
+                        <form method="POST" action="http://localhost/cmssekolahku2/ppdb/statistik/redirect_tahun">
+                <ol class="form">
+                    <li>
+                        <select style="width:auto;" name="tahun" onChange='this.form.submit()'>
+                            <option value="">Pilih Tahun :</option>
+                            <option value="2017">Tahun 2017</option>                        </select>
+                    </li>
+                </ol>
+            </form>
+                    </div>
+
+                <div class="well well-sm">
+    		        <strong>GRAFIK JUMLAH CALON PESERTA DIDIK BARU BERDASARKAN BULAN DAFTAR</strong>
+        <br>
+        <canvas id="bulan" width="100" height="400">[No canvas support]</canvas>
+        <script>
+            bar = new RGraph.Bar('bulan', [1])
+                .Set('background.grid.dashed', true)
+                .Set('background.grid.dashed', true)
+                .Set('labels.above', true)
+                .Set('tooltips', ['Desember'])
+                .Set('tooltips.event', 'onmousemove')
+                .Set('shadow', true)
+                .Set('shadow.offsetx', 2)
+                .Set('shadow.offsety', 2)
+                .Set('shadow.blur', 1)
+                .Set('colors', ['Gradient(#0642a6:#2c74ea)'])
+                .Draw();
+        </script>
+        </div>
+        
+                <div class="well well-sm">
+                <strong>GRAFIK JUMLAH CALON PESERTA DIDIK BARU BERDASARKAN ASAL SEKOLAH</strong>
+        <br>
+        <canvas id="sekolah_asal" width="643" height="400">[No canvas support]</canvas>
+        <script>
+            bar = new RGraph.Bar('sekolah_asal', [1])
+                .Set('background.grid.dashed', true)
+                .Set('background.grid.dashed', true)
+                .Set('labels.above', true)
+                .Set('tooltips', ['asdada 1'])
+                .Set('tooltips.event', 'onmousemove')
+                .Set('shadow', true)
+                .Set('shadow.offsetx', 2)
+                .Set('shadow.offsety', 2)
+                .Set('shadow.blur', 1)
+                .Set('colors', ['Gradient(#0642a6:#2c74ea)'])
+                .Draw();
+        </script>
+        </div>
+        
+                <div class="well well-sm">
+                <strong>GRAFIK JUMLAH CALON PESERTA DIDIK BARU BERDASARKAN JALUR PENDAFTARAN</strong>
+        <br>
+        <canvas id="jalur" width="643" height="400">[No canvas support]</canvas>
+        <script>
+            bar = new RGraph.Bar('jalur', [1])
+                .Set('background.grid.dashed', true)
+                .Set('background.grid.dashed', true)
+                .Set('labels.above', true)
+                .Set('labels', ['Online'])
+                .Set('shadow', true)
+                .Set('shadow.offsetx', 2)
+                .Set('shadow.offsety', 2)
+                .Set('shadow.blur', 1)
+                .Set('colors', ['Gradient(#0642a6:#2c74ea)'])
+                .Draw();
+        </script>
+        </div>
+        
+                <div class="well well-sm">
+                <strong>GRAFIK JUMLAH CALON PESERTA DIDIK BARU BERDASARKAN JENIS KELAMIN</strong>
+        <br>
+        <canvas id="kelamin" width="300" height="400">[No canvas support]</canvas>
+        <script>
+            bar = new RGraph.Bar('kelamin', [1])
+                .Set('background.grid.dashed', true)
+                .Set('background.grid.dashed', true)
+                .Set('labels.above', true)
+                .Set('labels', ['Laki-Laki'])
+                .Set('shadow', true)
+                .Set('shadow.offsetx', 2)
+                .Set('shadow.offsety', 2)
+                .Set('shadow.blur', 1)
+                .Set('colors', ['Gradient(#0642a6:#2c74ea)'])
+                .Draw();
+        </script>
+        </div>
+        	</div>
+</section>
+<script src="http://localhost/cmssekolahku2/views/themes/default/assets/moodal/js/bootstrap.js"></script>
+<link href="http://localhost/cmssekolahku2/views/themes/default/assets/moodal/css/bootstrap.css" rel="stylesheet">
+<aside id="aside-secondary">
+	 	 <div class="widget-title">
+		  <h4><span class="ja ji">SAMBUTAN KEPSEK</span> <i class="fa fa-microphone"></i></h4>
+	 </div>
+	 <div class="widget">
+		  <ul class="post-list">
+				<li class="clearfix" style="padding:0;">
+				    <div class="sambut">
+					    					    <img width="100%" title="Zulheldi, S.Si." src="http://localhost/cmssekolahku2/assets/ptk/6979e166a6536280b0e5955cd8aa62f8.jpg" alt="image" style="margin-top:0;"/>
+					    					</div>
+					 <p>Assalamualikum Wr. Wb
+
+Atas Berkat Rahmat Allah, Tuhan yang Maha Esa dan doa restu serta kerja keras segenap kelua...</p>
+					 <p><a class="samkep" href="http://localhost/cmssekolahku2/home/sambutan_kepala_sekolah">Selengkapnya..<i class="fa fa-angle-right"></i></a></p>
+				</li>
+		  </ul>
+	 </div>
+	 
+	 <div class="widget-title">
+		  <h4><span>JAJAK PENDAPAT</span> <i class="fa fa-star"></i></h4>
+	 </div>
+	 <div class="widget">
+		  <div id="message-polling" style="display:none;"></div>
+		  <img id="loading-polling" style="display:none;" src="http://localhost/cmssekolahku2/assets/loading.gif">
+		  <form action="http://localhost/cmssekolahku2/home/polling" class="form-inline" role="form" id="form-polling" method="post" accept-charset="utf-8">
+				<p>Apakah website ini bagus ?</p>
+								<label for="1">
+					 <input type="radio" id="jawaban_id" name="jawaban_id" value="1"/> Sangat Bagus				</label>
+								<label for="2">
+					 <input type="radio" id="jawaban_id" name="jawaban_id" value="2"/> Bagus				</label>
+								<label for="3">
+					 <input type="radio" id="jawaban_id" name="jawaban_id" value="3"/> Cukup Bagus				</label>
+								<label for="4">
+					 <input type="radio" id="jawaban_id" name="jawaban_id" value="4"/> Kurang menarik				</label>
+								<div class="botpoll">
+				    <button id="submit-polling" type="submit" value="submit" name="submit">SUBMIT</button><a class="jawaban" href="http://localhost/cmssekolahku2/home/result_polling">Lihat Jawaban</a>
+				</div>
+		  </form>	 </div>
+	 	 
+	 	
+	
+	
+		
+</aside>    </section>
+
+<footer id="sub-footer">
+    <div id="footcont" class="clearfix">
+		<div class="infooter">
+		    <div class="footer-title">
+	            	<h4>DATA SEKOLAH</h4>
+	        </div>
+			<div class="list">
+			    <h4>SMP MUHAMMADIYAH 30</h4>
+			    <p>Jl. Raya Penggilingan, RT 5 RW 6 No.36 <br/>
+			    <p>Cakung			    , Jakarta Timur <br/><br/>
+				<i class="fa fa-phone"></i>  (021) 4608423<br/>
+				<i class="fa fa-envelope"></i>  smpmuh30jkt@yahoo.com			    </p>
+			</div>
+		</div>
+		<div class="infooter">
+		    <div class="footer-title">
+	            	<h4>KATEGORI</h4>
+	        </div>
+		    	    
+		</div>
+		<div class="infooter">
+		    <div class="footer-title">
+	            <h4>ARSIP 2017</h4>
+	        </div>
+					</div>
+		<div class="infooter">
+		    <div class="footer-title">
+	            <h4>TAUTAN</h4>
+	        </div>
+		    		</div>
+	</div>
+		<div id="copyright-wrapper" class="clearfix">
+		    <div class="footcopy">
+			    <div class="copyright">Copyright © 2017 SMP Muhammadiyah 30. All Rights Reserved.</div>
+			    <div class="dev"><span class="eloper">Edited by <a href="" target="">Setyawan Antaris</a></span><span class="eloper">| Developed by <a href="http://sekolahku.web.id" target="_blank">sekolahku.web.id</a></span></div>
+			</div>
+		</div>
+</footer>
+</div>
+</body>
+</html>
